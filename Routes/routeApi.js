@@ -1,4 +1,4 @@
-const { readAndAppend, readFromFile } = require("../workmate/Utils");
+const { readAndAppend, readFromFile } = require("../helpers/fsUtils");
 const { v4: uuidv4 } = require("uuid");
 
 module.exports = function (app) {
