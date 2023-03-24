@@ -11,8 +11,6 @@ app.use(express.json());
 app.use(express.static("public"));
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
-//require("./RouteFiles/API-route")(app);
-//require("./RouteFiles/Html-routes")(app);
 
 app.listen(PORT, function () {
   console.log("Application listening http://localhost:" + PORT);
